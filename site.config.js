@@ -7,9 +7,9 @@ module.exports = {
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Transitive Bullshit',
-  domain: 'https://lopsided-trader-374.notion.site/00f422ad21df410cb99c7ebfdf5a5a43',
-  author: 'Travis Fischer',
+  name: '言九七',
+  domain: 'https://lopsided-trader-374.notion.site/387f32954bff4596bf5c27c4afde556b',
+  author: '言九七',
 
   // open graph metadata (optional)
   description: 'Example site description',
