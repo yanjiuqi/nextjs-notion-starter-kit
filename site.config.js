@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: '言九七',
-  domain: 'https://lopsided-trader-374.notion.site/387f32954bff4596bf5c27c4afde556b',
+  domain: 'https://www.notion.so/387f32954bff4596bf5c27c4afde556b',
   author: '言九七',
 
   // open graph metadata (optional)
