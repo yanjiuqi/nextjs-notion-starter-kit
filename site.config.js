@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'YoungLe',
-  domain: 'transitivebullsh.it',
+  domain: 'younglele.cn/',
   author: '杨乐乐',
 
   // open graph metadata (optional)
