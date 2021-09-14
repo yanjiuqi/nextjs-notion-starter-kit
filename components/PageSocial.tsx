@@ -18,7 +18,7 @@ const socialLinks: SocialLink[] = [
     href: `https://www.instagram.com/syc512/`,
     title: `instagram @${config.twitter}`,
     icon: (
-      <img src="https://scontent-hkt1-1.cdninstagram.com/v/t51.2885-19/s150x150/68693627_357201311827219_3941488541191634944_n.jpg?_nc_ht=scontent-hkt1-1.cdninstagram.com&_nc_ohc=Sr-gGUJAh0cAX-8I4ip&edm=ABfd0MgBAAAA&ccb=7-4&oh=c5b183f7aab7ac30a542550454c56b4e&oe=6147E851&_nc_sid=7bff83" alt="哈哈哈">
+      <img src="https://scontent-hkt1-1.cdninstagram.com/v/t51.2885-19/s150x150/68693627_357201311827219_3941488541191634944_n.jpg?_nc_ht=scontent-hkt1-1.cdninstagram.com&_nc_ohc=Sr-gGUJAh0cAX-8I4ip&edm=ABfd0MgBAAAA&ccb=7-4&oh=c5b183f7aab7ac30a542550454c56b4e&oe=6147E851&_nc_sid=7bff83" alt="哈哈哈" />
     )
   },
 
