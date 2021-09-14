@@ -26,7 +26,7 @@ const socialLinks: SocialLink[] = [
 
   config.github && {
     name: 'dribbble',
-    href: `https://dribbble.com/syc512/${config.github}`,
+    href: `https://dribbble.com/syc512/`,
     title: `dribbble @${config.github}`,
     icon: (
       <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'>
