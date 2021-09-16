@@ -18,7 +18,7 @@ const socialLinks: SocialLink[] = [
     href: `https://www.instagram.com/syc512/`,
     title: `instagram @${config.twitter}`,
     icon: (
-      <img src="./ins.svg" alt="img" />
+      <img src=require("./ins.svg") alt="img" />
     )
   },
 
