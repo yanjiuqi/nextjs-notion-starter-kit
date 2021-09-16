@@ -40,7 +40,7 @@
   align-items: center;
 }
 
-.actionBg svg {
+.actionBg {
   width: 50%;
   height: 50%;
   fill: var(--fg-color-6);
@@ -63,12 +63,12 @@
   transition: all 100ms ease-out;
 }
 
-.action:hover svg {
+.action:hover {
   transition: fill 100ms ease-out;
   fill: var(--bg-color);
 }
 
-:global(.dark-mode) .action:hover svg {
+:global(.dark-mode) .action:hover {
   fill: var(--fg-color);
 }
 
