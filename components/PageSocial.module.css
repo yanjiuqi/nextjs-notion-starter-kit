@@ -27,7 +27,7 @@
   margin-bottom: 0;
 }
 
-.actionBg {
+.actionBg svg {
   position: absolute;
   top: 0;
   left: 0;
@@ -63,12 +63,12 @@
   transition: all 100ms ease-out;
 }
 
-.action:hover {
+.action:hover svg {
   transition: fill 100ms ease-out;
   fill: var(--bg-color);
 }
 
-:global(.dark-mode) .action:hover {
+:global(.dark-mode) .action:hover svg {
   fill: var(--fg-color);
 }
 
