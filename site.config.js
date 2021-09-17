@@ -7,14 +7,14 @@ module.exports = {
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'YoungLe',
+  name: 'younglele',
   domain: 'www.younglele.cn',
-  author: '杨乐乐',
+  author: 'YoungLe',
 
   // open graph metadata (optional)
-  description: 'YoungLe Blog',
-  socialImageTitle: 'YoungLe',
-  socialImageSubtitle: 'Hello World! 👋',
+  description: 'younglele.cn, notion, notion blog, ',
+  socialImageTitle: 'younglele',
+  socialImageSubtitle: 'younglele',
 
   // social usernames (optional)
   twitter: 'youngle316',
@@ -46,5 +46,8 @@ module.exports = {
   //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
-  pageUrlOverrides: null
+  pageUrlOverrides: {
+    'datastructure/dict': '6b8490b0b8b542279bc4ea1e59a5274d',
+    'datastructure/tree': 'c606099f19ab4b4cb6a15514822b61db',
+  }
 }

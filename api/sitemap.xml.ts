@@ -13,6 +13,7 @@ export default async (
   }
 
   const siteMaps = await getSiteMaps()
+  console.log('siteMaps', siteMaps)
 
   // cache sitemap for up to one hour
   res.setHeader(
