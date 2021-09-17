@@ -47,7 +47,7 @@ module.exports = {
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
   pageUrlOverrides: {
-    '/datastructure/dict': '6b8490b0b8b542279bc4ea1e59a5274d',
-    '/datastructure/tree': 'c606099f19ab4b4cb6a15514822b61db',
+    '/datastructure-dict': '6b8490b0b8b542279bc4ea1e59a5274d',
+    '/datastructure-tree': 'c606099f19ab4b4cb6a15514822b61db',
   }
 }
