@@ -64,12 +64,12 @@
 }
 
 .notion-collection-card {
-  border-radius: 16px;
+  border-radius: 10px;
   box-shadow: none;
 }
 
 .notion-collection-card-cover img {
-  border-radius: 16px;
+  border-radius: 10px;
 }
 
 .notion-collection-card {
