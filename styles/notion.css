@@ -64,12 +64,12 @@
 }
 
 .notion-collection-card {
-  border-radius: 10px;
+  border-radius: 6px;
   box-shadow: none;
 }
 
 .notion-collection-card-cover img {
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 .notion-collection-card {
@@ -77,7 +77,7 @@
 }
 
 .notion-collection-card-cover {
-  border-radius: 10px;
+  border-radius: 6px;
   overflow: visible;
   box-shadow: 2px 2px 8px 4px rgba(00, 04, 08, 0.05);
 }
