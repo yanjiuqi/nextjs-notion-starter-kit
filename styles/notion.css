@@ -338,3 +338,9 @@
   background: rgba(135, 131, 120, 0.15) !important;
   padding: 0.2em 0.4em !important;
 }
+
+.notion code {
+  color: #1f2937;
+  background: none;
+  padding: 0;
+}
