@@ -23,6 +23,15 @@ export const PageHead: React.FC<types.PageProps> = ({ site }) => {
 
       <meta name='theme-color' content='#EB625A' />
       <meta property='og:type' content='website' />
+      <script>
+        var _hmt = _hmt || [];
+        (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?d87e4e0c080c2c7c4d7316a38a77da04";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+        })();
+      </script>
       <script
         async
         src={`https://www.googletagmanager.com/gtag/js?id=UA-131182082-1`}
