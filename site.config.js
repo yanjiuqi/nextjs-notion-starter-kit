@@ -49,5 +49,6 @@ module.exports = {
   pageUrlOverrides: {
     '/datastructure-dict': '6b8490b0b8b542279bc4ea1e59a5274d',
     '/datastructure-tree': 'c606099f19ab4b4cb6a15514822b61db',
+    '/which-is-faster-to-implement-queue-linked-list-or-array': 'da0902fffbed4fd6850f8aa6fcd262c1',
   }
 }
