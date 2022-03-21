@@ -104,7 +104,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
   // const title = getBlockTitle(block, recordMap) || site.name
   console.log('block', block)
   console.log('recordMap', recordMap)
-  const title = site.name
+  const title = site.name || getBlockTitle(block, recordMap)
 
   console.log('notion page', {
     isDev: config.isDev,
@@ -123,9 +123,12 @@ export const NotionPage: React.FC<types.PageProps> = ({
   }
 
   const siteMapPageUrl = mapPageUrl(site, recordMap, searchParams)
+  console.log('siteMapPageUrl', siteMapPageUrl)
 
   const canonicalPageUrl =
     !config.isDev && getCanonicalPageUrl(site, recordMap)(pageId)
+
+  console.log('canonicalPageUrl', canonicalPageUrl)
 
   // const isRootPage =
   //   parsePageId(block.id) === parsePageId(site.rootNotionPageId)
