@@ -12,6 +12,8 @@ const uuid = !!includeNotionIdInUrls
 export const mapPageUrl =
   (site: Site, recordMap: ExtendedRecordMap, searchParams: URLSearchParams) =>
   (pageId = '') => {
+  console.log('pageId', pageId)
+  console.log('uuidToId(pageId)', uuidToId(pageId))
     if (uuidToId(pageId) === site.rootNotionPageId) {
       return createUrl('/', searchParams)
     } else {
@@ -26,6 +28,8 @@ export const getCanonicalPageUrl =
   (site: Site, recordMap: ExtendedRecordMap) =>
   (pageId = '') => {
     const pageUuid = parsePageId(pageId, { uuid: true })
+    console.log('pageUuid', pageUuid)
+    console.log('uuid', uuid)
 
     if (uuidToId(pageId) === site.rootNotionPageId) {
       return `https://${site.domain}`
