@@ -9,7 +9,7 @@ export const mapPageUrl =
     if (uuidToId(pageId) === site.rootNotionPageId) {
       return createUrl('/', searchParams)
     } else {
-      return createUrl(`/post/${uuidToId(pageId)}`, searchParams)
+      return createUrl(`/${uuidToId(pageId)}`, searchParams)
     }
   }
 
@@ -20,7 +20,7 @@ export const getCanonicalPageUrl =
     if (uuidToId(pageId) === site.rootNotionPageId) {
       return `https://${site.domain}`
     } else {
-      return `https://${site.domain}/post/${uuidToId(pageId)}`
+      return `https://${site.domain}/${uuidToId(pageId)}`
     }
   }
 
