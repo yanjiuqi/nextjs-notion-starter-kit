@@ -101,18 +101,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
     return <Page404 site={site} pageId={pageId} error={error} />
   }
 
-  // const title = getBlockTitle(block, recordMap) || site.name
-  console.log('block', block)
-  console.log('recordMap', recordMap)
-  const title = site.name || getBlockTitle(block, recordMap)
-
-  console.log('notion page', {
-    isDev: config.isDev,
-    title,
-    pageId,
-    rootNotionPageId: site.rootNotionPageId,
-    recordMap
-  })
+  const title = getBlockTitle(block, recordMap) || site.name
 
   if (!config.isServer) {
     // add important objects to the window global for easy debugging
@@ -123,13 +112,9 @@ export const NotionPage: React.FC<types.PageProps> = ({
   }
 
   const siteMapPageUrl = mapPageUrl(site, recordMap, searchParams)
-  console.log('siteMapPageUrl', siteMapPageUrl)
 
   const canonicalPageUrl =
     !config.isDev && getCanonicalPageUrl(site, recordMap)(pageId)
-
-  console.log('canonicalPageUrl', canonicalPageUrl)
-
   // const isRootPage =
   //   parsePageId(block.id) === parsePageId(site.rootNotionPageId)
   const isBlogPost =

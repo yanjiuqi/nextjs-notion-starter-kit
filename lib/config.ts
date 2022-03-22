@@ -28,11 +28,8 @@ export const pageUrlOverrides = cleanPageUrlMap(
   getSiteConfig('pageUrlOverrides', {}) || {},
   'pageUrlOverrides'
 )
-console.log('pageUrlOverrides', pageUrlOverrides);
 
 export const inversePageUrlOverrides = invertPageUrlOverrides(pageUrlOverrides)
-
-console.log('inversePageUrlOverrides', inversePageUrlOverrides);
 
 export const pageUrlAdditions = cleanPageUrlMap(
   getSiteConfig('pageUrlAdditions', {}) || {},

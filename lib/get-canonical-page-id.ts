@@ -17,13 +17,9 @@ export function getCanonicalPageId(
   }
 
   const override = inversePageUrlOverrides[cleanPageId]
-  console.log('override', override)
   if (override) {
     return override
   } else {
-    console.log('override-else', getCanonicalPageIdImpl(pageId, recordMap, {
-      uuid
-    }))
     return getCanonicalPageIdImpl(pageId, recordMap, {
       uuid
     })

@@ -6,7 +6,6 @@ import * as types from './types'
 
 export async function getSiteMaps(): Promise<types.SiteMap[]> {
   const sites = await getSites()
-  console.log('sites', sites)
 
   const siteMaps = await pMap(
     sites,
